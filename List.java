@@ -355,7 +355,7 @@ public class List<ContentType>
         while(!this.isEmpty())
         {
             this.toFirst();
-            remove();
+            this.remove();
         }
         current = null;
     }
